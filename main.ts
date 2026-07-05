@@ -1,8 +1,8 @@
 namespace myAddon {
 
-    //% block="make player jump %sprite with power %power"
-        export function playerJump(sprite: Sprite, power: number) {
-                sprite.vy = -power;
+    //% block="let %varname = %integer"
+        export function let(varname: varname, integer: number) {
+               console.log(integer);
                     }
 
                     }
